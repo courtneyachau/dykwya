@@ -1,0 +1,115 @@
+<style>
+    
+    header {
+        background-color: transparent;
+        height: 122px;
+        width: auto;
+        margin: -10px;
+        display: grid;
+        grid-template-rows: 83px 40px;
+    }
+
+    #topcolor1 {
+        background-color: #355c17;
+    }
+    
+    #topcolor2 {
+        background-color: #678d46
+    }
+
+    body {
+        background-color: #cd4049;
+        height: auto;
+    }
+    
+    a {
+        color:inherit;
+        text-decoration: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 250px;
+        justify-items: center;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 55px;
+        margin-bottom: 6px;
+    }
+
+    footer {
+        background-color: transparent;
+        height: 122px;
+        width: auto;
+        margin: -10px;
+        display: grid;
+        grid-template-rows: 40px 83px;
+        bottom: 0px;
+    }
+
+    button {
+        width: 1000px;
+        padding: 13px;
+        background-color: black;
+        margin-top: 9px;
+        border-radius: 6px;
+        border-color: transparent;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+    }
+
+    #namebox {
+        width: 1000px;
+        padding: 15px;
+        margin: 10px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+    button:hover {
+        animation-name: buttonbackground;
+        animation-duration: 300ms;
+        animation-fill-mode: forwards;
+        cursor: pointer;
+    }
+
+    @keyframes buttonbackground {
+        100% {
+            background-color: white;
+            color: black;
+        }
+    }
+
+</style>
+
+<html>
+
+
+<body>
+    <header>
+        <div id="topcolor1"> </div>
+        <div id="topcolor2"> </div>
+    </header>
+    <main>
+        <h1><b>do you know who you are?</b></h1>
+        <input type="text" placeholder="Your Name" id="namebox">
+        <a href="https://youtu.be/FC3y9llDXuM?t=104" target="_blank"><button><b>find out</b></button></a>
+    </main>
+    <footer>
+        <div id="topcolor2"></div>
+        <div id="topcolor1"></div>
+    </footer>
+</body>
+</html>
